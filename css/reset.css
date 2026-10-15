@@ -1,0 +1,11 @@
+/* reset.css – removes browser default styles */
+
+html, body, div, object,h1, h2, h3, p,a, label, legend,article, aside, figure, figcaption,footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <title>Add Blog Entry</title>
+  
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Add Blog</p>
+  </header>
+  <nav aria-label="Main">
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="addEntry.html">addEntry</a></li>
+    </ul>
+  </nav>
+
+  <main class="container page">
+    <article>
+      <section>
+        <h2>Add Blog Entry</h2>
+        <!-- Phase 1: action is placeholder change to php after phase2  -->
+        <form id="addBlogForm" action="blog.html" >
+          <div>
+            <label for="title">Title</label>
+            <input id="title" name="title" type="text" required placeholder="Enter a title">
+          </div>
+          <div>
+            <label for="content">Content</label>
+            <textarea id="content" name="content" required placeholder="Enter your text here"></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="submit">Post</button>
+            <button type="reset">Clear</button>
+          </div>
+        </form>
+      </section>
+    </article>
+
+    <aside>
+      <h2>Status</h2>
+      <ul>
+        <li>Not logged in.</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Portfolio</p>
+  </footer>
+</body>
+</html>
